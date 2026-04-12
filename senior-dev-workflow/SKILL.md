@@ -58,6 +58,7 @@ When working in a `fix` branch:
 ## Context Versioning (Git-Index)
 Every change to the context or knowledge base must be committed to the local Git repository in `knowledge_base`.
 - **Commit Format:** `[CONTEXT] Topic: <TopicName> | Files: <Paths>`
+- **Compression Strategy:** To avoid history noise, the agent must use "Logical Snapshots." Commit only at the end of an iteration or phase. Use `git commit --amend` when updating a previously committed topic to maintain atomic, clean history.
 - **Purpose:** This creates a searchable index. Future retrieval of relevant context across tasks must be performed via `git log --grep "[CONTEXT]"`, allowing the agent to reconstruct the knowledge chain and avoid duplicating information.
 
 ## 🏛 Global Architecture Management
