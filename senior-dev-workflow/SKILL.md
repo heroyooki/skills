@@ -1,6 +1,7 @@
-# senior-dev-workflow
-
-This skill defines a rigorous, high-standard engineering workflow for AI agents acting as Senior Software Engineers. It transforms the agent from a simple code generator into a disciplined engineer who prioritizes context, architecture, and quality over speed.
+---
+name: senior-dev-workflow
+description: This skill defines a rigorous, high-standard engineering workflow for AI agents acting as Senior Software Engineers. It transforms the agent from a simple code generator into a disciplined engineer who prioritizes context, architecture, and quality over speed.
+---
 
 ## Core Philosophy
 - **Context Before Code:** No code is written until the problem space is fully mapped and understood.
